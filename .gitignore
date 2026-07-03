@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# uv.lock is intentionally tracked: pinned dependency versions are required for
+# reproducible builds (BID acceptance criterion). Do NOT add it here.
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# ── Data ──
+# The full external-input bundle (~68 GB) lives on IDB storage, never in git.
+# See DATA_MANIFEST.md for the contract (sources, versions, layout).
+data/
+
+# ── Results ──
+# Everything under results/ is produced by pipeline runs; outputs of record
+# travel with the data bundle, not with this repository.
+results/
+
+# Figures and heavy binaries
+figures/
+*.png
+*.pdf
+*.pptx
+*.docx
+*.mp4

@@ -1,0 +1,27 @@
+[project]
+name = "idb-school-accessibility"
+version = "1.0.0"
+description = "Municipality-level school accessibility indicators for 22 LAC countries (IDB/BID)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "geopandas>=1.0",
+    "geopy>=2.4.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.0",
+    "openpyxl>=3.1",
+    "pandas>=3.0",
+    "pyarrow>=24.0.0",
+    "pyshp>=3.0",
+    "rasterio>=1.5.0",
+    "scikit-fmm>=2025.6.23",
+    "scipy>=1.17.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

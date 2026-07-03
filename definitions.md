@@ -1,0 +1,8 @@
+**Areas Urbanas**: Asentamiento que presenta una densidad igual o superior a 300 habitantes por kilómetro cuadrado y una población total de al menos 5.000 personas. 
+
+**Areas No Urbanas**: Asentamientos que no alcanzan esos umbrales, pero que tienen una densidad igual o superior a 150 habitantes por kilómetro cuadrado y una población entre 200 y 5.000 personas.
+
+
+la Capa Establecimientos Educativos de la Amazonía, desarrollada por el equipo del Centro de Información para la Mejora de los Aprendizajes (CIMA) del Banco Interamericano de Desarrollo. Este repositorio georreferenciado fue construido a partir de fuentes oficiales nacionales, mediante datos públicos o información provista directamente por las contrapartes gubernamentales. Los datos de población en edad escolar se obtuvieron de WorldPop, con segmentaciones por grupos etarios: 5 a 9 años para primaria, 10 a 14 años para secundaria baja y 15 a 19 años para secundaria alta. Esta segmentación permite analizar la accesibilidad de manera diferenciada según el nivel educativo, integrando la distribución geográfica de la población y la localización de la oferta educativa. 
+
+En consecuencia, esta delimitación excluye del análisis a las áreas dispersas, definidas como grillas con menos de 200 habitantes y una densidad inferior a 150 habitantes por kilómetro cuadrado, que no pueden ser agrupadas en polígonos. Las áreas dispersas corresponden típicamente a comunidades rurales aisladas o territorios de muy baja densidad poblacional. 
